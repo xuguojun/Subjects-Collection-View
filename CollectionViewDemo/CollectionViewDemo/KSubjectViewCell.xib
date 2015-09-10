@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="KSubjectViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="225" height="118"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="225" height="118"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subject Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUi-1Y-KWG">
+                        <rect key="frame" x="10" y="0.0" width="205" height="118"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.55294117647058827" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="cUi-1Y-KWG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="2Gn-Fg-jKO"/>
+                <constraint firstItem="cUi-1Y-KWG" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Th1-xb-IeI"/>
+                <constraint firstAttribute="bottom" secondItem="cUi-1Y-KWG" secondAttribute="bottom" id="ZVG-n3-boa"/>
+                <constraint firstAttribute="trailing" secondItem="cUi-1Y-KWG" secondAttribute="trailing" constant="10" id="hWr-jV-Egb"/>
+            </constraints>
+            <size key="customSize" width="225" height="118"/>
+            <connections>
+                <outlet property="subjectLabel" destination="cUi-1Y-KWG" id="qVU-Kp-pk9"/>
+            </connections>
+            <point key="canvasLocation" x="312.5" y="374"/>
+        </collectionViewCell>
+    </objects>
+</document>
