@@ -23,6 +23,7 @@
 		9A5E21491BA174840007D96A /* KSubjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5E21471BA174840007D96A /* KSubjectView.m */; };
 		9A5E214A1BA174840007D96A /* KSubjectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A5E21481BA174840007D96A /* KSubjectView.xib */; };
 		9A5E214E1BA174A90007D96A /* UIColor+KColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5E214D1BA174A90007D96A /* UIColor+KColor.m */; };
+		9A5E21551BA177A10007D96A /* SubjectDemo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A5E21541BA177A10007D96A /* SubjectDemo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		9A5E214C1BA174A90007D96A /* UIColor+KColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KColor.h"; sourceTree = "<group>"; };
 		9A5E214D1BA174A90007D96A /* UIColor+KColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KColor.m"; sourceTree = "<group>"; };
 		9A5E214F1BA174D10007D96A /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
+		9A5E21541BA177A10007D96A /* SubjectDemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SubjectDemo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		9A5E21011BA174180007D96A = {
 			isa = PBXGroup;
 			children = (
+				9A5E21541BA177A10007D96A /* SubjectDemo.png */,
 				9A5E210C1BA174180007D96A /* CollectionViewDemo */,
 				9A5E21291BA174180007D96A /* CollectionViewDemoTests */,
 				9A5E210B1BA174180007D96A /* Products */,
@@ -276,6 +279,7 @@
 				9A5E21401BA174560007D96A /* KSubjectHeaderView.xib in Resources */,
 				9A5E211E1BA174180007D96A /* Images.xcassets in Resources */,
 				9A5E213E1BA174560007D96A /* KSubjectViewCell.xib in Resources */,
+				9A5E21551BA177A10007D96A /* SubjectDemo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +500,7 @@
 				9A5E21321BA174180007D96A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A5E21331BA174180007D96A /* Build configuration list for PBXNativeTarget "CollectionViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				9A5E21351BA174180007D96A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
